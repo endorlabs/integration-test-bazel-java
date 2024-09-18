@@ -10,7 +10,7 @@ import java.math.RoundingMode;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class ClassWithTransitiveImports {
+public class TcTransitiveImports {
 
     private ListenableFutureTask<Double> getListenableTask(int time) { // Has Transitives
         return ListenableFutureTask.create(() -> {

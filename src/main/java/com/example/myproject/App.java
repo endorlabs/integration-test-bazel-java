@@ -17,7 +17,7 @@ public class App {
     System.out.println("Success: " + app.compare(2, 1));
 
     // Try with Transitive Imports
-    ClassWithTransitiveImports testClass = new ClassWithTransitiveImports();
+    TcTransitiveImports testClass = new TcTransitiveImports();
     testClass.useSomeRandomInternalLibrary();
   }
 
