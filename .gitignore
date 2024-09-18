@@ -23,8 +23,6 @@
 hs_err_pid*
 replay_pid*
 
-bazel-bin
-bazel-genfiles
-bazel-java-maven
-bazel-out
-bazel-testlogs
+bazel-*
+
+.ijwb
