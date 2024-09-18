@@ -15,6 +15,10 @@ public class App {
   public static void main(String... args) throws Exception {
     App app = new App();
     System.out.println("Success: " + app.compare(2, 1));
+
+    // Try with Transitive Imports
+    ClassWithTransitiveImports testClass = new ClassWithTransitiveImports();
+    testClass.useSomeRandomInternalLibrary();
   }
 
 }
