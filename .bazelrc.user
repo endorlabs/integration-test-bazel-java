@@ -1,0 +1,2 @@
+common --announce_rc
+common --logging=6
